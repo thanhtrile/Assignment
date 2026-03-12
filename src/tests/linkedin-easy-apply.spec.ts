@@ -4,13 +4,13 @@ import { JobApplicationModal } from '../pages/JobApplicationModal';
 import { Logger } from '../utils/logger';
 
 // We simulate testing with multi-user sessions
-const users = ['user1'];
+const users = ['user1', 'user2'];
 
 for (const user of users) {
     test.describe(`LinkedIn Easy Apply Flow - User: ${user}`, () => {
 
-        // In a real environment, uncomment this to use the saved session from global setup:
-        // test.use({ storageState: `playwright/.auth/${user}.json` });
+        // Use the saved session from global setup for the current user
+        test.use({ storageState: `playwright/.auth/${user}.json` });
 
         test('Locate "Easy Apply" job and validate application form requirements', async ({ page }) => {
             const jobsPage = new JobsPage(page);

@@ -1,0 +1,156 @@
+[2026-03-12T08:49:24.653Z] ERROR: Failed to click on job card - [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: locator('.job-search-card, .job-card-container').first()
+Expected: visible
+Timeout: 15000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 15000ms[22m
+[2m  - waiting for locator('.job-search-card, .job-card-container').first()[22m
+[2m    - waiting for" https://www.linkedin.com/jobs/search/?keywords=QA+Engineer&origin=JOBS_HOME_SEARCH_BUTTON" navigation to finish...[22m
+[2m    - navigated to "https://www.linkedin.com/jobs/search/?keywords=QA+Engineer&origin=JOBS_HOME_SEARCH_BUTTON"[22m
+
+[2026-03-12T08:49:24.655Z] ERROR: Test failed for user1 - [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: locator('.job-search-card, .job-card-container').first()
+Expected: visible
+Timeout: 15000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 15000ms[22m
+[2m  - waiting for locator('.job-search-card, .job-card-container').first()[22m
+[2m    - waiting for" https://www.linkedin.com/jobs/search/?keywords=QA+Engineer&origin=JOBS_HOME_SEARCH_BUTTON" navigation to finish...[22m
+[2m    - navigated to "https://www.linkedin.com/jobs/search/?keywords=QA+Engineer&origin=JOBS_HOME_SEARCH_BUTTON"[22m
+
+[2026-03-12T08:50:44.955Z] ERROR: Error during job search for QA Engineer - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+[2m    - waiting for" https://www.linkedin.com/jobs/?skipRedirect=true" navigation to finish...[22m
+[2m    - navigated to "https://www.linkedin.com/jobs/?skipRedirect=true"[22m
+[2m    - waiting for" https://www.linkedin.com/" navigation to finish...[22m
+[2m    - navigated to "https://www.linkedin.com/"[22m
+
+[2026-03-12T08:50:44.956Z] ERROR: Test failed for user1 - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+[2m    - waiting for" https://www.linkedin.com/jobs/?skipRedirect=true" navigation to finish...[22m
+[2m    - navigated to "https://www.linkedin.com/jobs/?skipRedirect=true"[22m
+[2m    - waiting for" https://www.linkedin.com/" navigation to finish...[22m
+[2m    - navigated to "https://www.linkedin.com/"[22m
+
+[2026-03-12T08:52:37.631Z] ERROR: Error during job search for QA Engineer - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:52:37.632Z] ERROR: Test failed for user1 - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:52:42.207Z] ERROR: Error during job search for QA Engineer - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:52:42.209Z] ERROR: Test failed for user1 - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:53:01.977Z] ERROR: Error during job search for QA Engineer - locator.fill: Test ended.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:53:01.978Z] ERROR: Test failed for user1 - locator.fill: Test ended.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:53:02.904Z] ERROR: Error during job search for QA Engineer - locator.fill: Test ended.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:53:02.905Z] ERROR: Test failed for user1 - locator.fill: Test ended.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:55:51.062Z] ERROR: Error during job search for QA Engineer - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:55:51.063Z] ERROR: Test failed for user1 - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:56:35.200Z] ERROR: Error during job search for QA Engineer - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:56:35.216Z] ERROR: Test failed for user1 - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:57:24.416Z] ERROR: Error during job search for QA Engineer - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:57:24.417Z] ERROR: Test failed for user1 - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:58:06.936Z] ERROR: Error during job search for QA Engineer - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:58:06.937Z] ERROR: Test failed for user1 - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+
+[2026-03-12T08:58:21.005Z] ERROR: Error during job search for QA Engineer - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+[2m    - waiting for" https://www.linkedin.com/jobs/?skipRedirect=true" navigation to finish...[22m
+[2m    - navigated to "https://www.linkedin.com/jobs/?skipRedirect=true"[22m
+[2m    - locator resolved to <input disabled type="text" aria-hidden="true" aria-required="false" title="Title, skill or company" placeholder="Title, skill or company" aria-label="Search by title, skill, or company" class="jobs-search-box__text-input jobs-search-box__keyboard-text-input jobs-search-box__ghost-text-input↵                ↵                ↵                 jobs-search-box__text-input--rounded"/>[22m
+[2m    - fill("QA Engineer")[22m
+[2m  - attempting fill action[22m
+[2m    2 × waiting for element to be visible, enabled and editable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying fill action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and editable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying fill action[22m
+[2m      - waiting 100ms[22m
+[2m    4 × waiting for element to be visible, enabled and editable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying fill action[22m
+[2m      - waiting 500ms[22m
+[2m    - waiting for" https://www.linkedin.com/" navigation to finish...[22m
+[2m    - navigated to "https://www.linkedin.com/"[22m
+[2m    - waiting for element to be visible, enabled and editable[22m
+[2m  - element was detached from the DOM, retrying[22m
+
+[2026-03-12T08:58:21.007Z] ERROR: Test failed for user2 - locator.fill: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('Title, skill or Company').first()[22m
+[2m    - waiting for" https://www.linkedin.com/jobs/?skipRedirect=true" navigation to finish...[22m
+[2m    - navigated to "https://www.linkedin.com/jobs/?skipRedirect=true"[22m
+[2m    - locator resolved to <input disabled type="text" aria-hidden="true" aria-required="false" title="Title, skill or company" placeholder="Title, skill or company" aria-label="Search by title, skill, or company" class="jobs-search-box__text-input jobs-search-box__keyboard-text-input jobs-search-box__ghost-text-input↵                ↵                ↵                 jobs-search-box__text-input--rounded"/>[22m
+[2m    - fill("QA Engineer")[22m
+[2m  - attempting fill action[22m
+[2m    2 × waiting for element to be visible, enabled and editable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying fill action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and editable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying fill action[22m
+[2m      - waiting 100ms[22m
+[2m    4 × waiting for element to be visible, enabled and editable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying fill action[22m
+[2m      - waiting 500ms[22m
+[2m    - waiting for" https://www.linkedin.com/" navigation to finish...[22m
+[2m    - navigated to "https://www.linkedin.com/"[22m
+[2m    - waiting for element to be visible, enabled and editable[22m
+[2m  - element was detached from the DOM, retrying[22m
+

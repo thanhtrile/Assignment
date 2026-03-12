@@ -67,7 +67,7 @@ export class JobsPage {
 
     async clickFirstJobCard() {
         try {
-            await expect(this.jobCards.first()).toBeVisible({ timeout: 15000 });
+            await expect(this.jobCards.first()).toBeVisible({ timeout: 30000 });
             await this.jobCards.first().click();
             Logger.info('Clicked on the first available job card.');
         } catch (e) {
